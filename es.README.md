@@ -1,4 +1,11 @@
-# Password Tool
+<p align="right">
+  <a href="README.md">
+    <img src="https://img.shields.io/badge/🌐%20English-README-%2312bab9?style=for-the-badge" alt="README English" />
+  </a>
+</p>
+
+
+# Generador de contraseñas
 
 Pequeño proyecto en Python con interfaz CLI que genera contraseñas seguras con longitud configurable. Permite usar letras, números y símbolos, regenerar contraseñas con la última longitud utilizada y validar entradas del usuario con intentos limitados.
 
