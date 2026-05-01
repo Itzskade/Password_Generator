@@ -17,7 +17,7 @@ def prompt_password_generation():
             else:
                 print_logo()
                 password = password_generator(length)
-                print(f"{colors.RED}Length: {length}{colors.RESET}")
+                print(f"{colors.RED}[INFO] Length: {length}{colors.RESET}")
                 print_password(password)
                 return length
         except ValueError:
