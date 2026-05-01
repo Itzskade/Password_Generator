@@ -5,7 +5,7 @@
 </p>
 
 
-# Password Tool
+# Password Generator
 
 A small Python CLI project that generates secure passwords with configurable length. It supports mixed character sets (letters, numbers, and symbols), regeneration using the last used length, and basic input validation with retry limits.
 
