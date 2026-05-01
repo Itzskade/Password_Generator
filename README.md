@@ -1,3 +1,10 @@
+<p align="right">
+  <a href="es.README.md">
+    <img src="https://img.shields.io/badge/🌐%20Spanish-README-%2312bab9?style=for-the-badge" alt="README Spanish" />
+  </a>
+</p>
+
+
 # Password Tool
 
 A small Python CLI project that generates secure passwords with configurable length. It supports mixed character sets (letters, numbers, and symbols), regeneration using the last used length, and basic input validation with retry limits.
