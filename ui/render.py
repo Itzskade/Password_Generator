@@ -42,4 +42,4 @@ def exiting():
 
 
 def print_password(password):
-    print(f"\n{colors.GREEN}[✓] Your password: {password}{colors.RESET}\n")
+    print(f"{colors.GREEN}[✓] Your password: {password}{colors.RESET}\n")
