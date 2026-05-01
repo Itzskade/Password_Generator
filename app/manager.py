@@ -23,7 +23,7 @@ def password_manager():
                     password = password_generator(last_length)
                     history.append(password)
                     history = history[-max_history:]
-                    print(f"{colors.RED}Length: {last_length}{colors.RESET}")
+                    print(f"{colors.RED}[INFO] Length: {last_length}{colors.RESET}")
                     print_password(password)
             elif choose == 3:
                 print_logo()
