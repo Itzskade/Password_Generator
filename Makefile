@@ -1,7 +1,7 @@
 .PHONY: clean run test lint install
 
 run:
-	python -m main
+	python3 -m main
 
 clean:
 	find . -type d -name "__pycache__" -exec rm -rf {} +
