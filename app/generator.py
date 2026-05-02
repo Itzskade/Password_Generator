@@ -1,5 +1,5 @@
 from core.config import letters_data, symbols_data
-import random
+import secrets
 
 
 def password_generator(length):
@@ -9,4 +9,4 @@ def password_generator(length):
         [str(i) for i in range(10)] +
         symbols_data
         )
-    return''.join(random.choice(chars) for _ in range(length))
+    return''.join(secrets.choice(chars) for _ in range(length))
